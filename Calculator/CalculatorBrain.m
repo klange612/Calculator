@@ -39,7 +39,6 @@
 + (NSString *)descriptionOfProgram:(id)program
 {
     return @"Implement this in Homework #2";
-    NSLog(@"github test");
 }
 
 - (void)pushOperand:(double)operand
