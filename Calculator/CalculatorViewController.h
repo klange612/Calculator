@@ -14,5 +14,4 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *miniDisplay;
 
-
 @end

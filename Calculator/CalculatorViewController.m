@@ -76,7 +76,7 @@
 {
     NSString *digit = [sender currentTitle];
     // NSLog(@"Digit pressed: %@", digit);
-    if (self.userIsInTheMiddleOfEnteringANumber)
+    if (self.userIsInTheMiddleOfEnteringANumber || decimalPoint)
     {
         self.display.text = [self.display.text stringByAppendingString:digit];
         self.miniDisplay.text = [self.miniDisplay.text stringByAppendingString:digit];
